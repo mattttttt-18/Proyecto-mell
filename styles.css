@@ -1,105 +1,132 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset básico */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+}
+
+body {
+    background-color: #fce4f1; /* Color de fondo suave */
+    font-family: 'Arial', sans-serif; /* Fuente simple y elegante */
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    padding: 20px;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background-color: #ff69b4; /* Rosa brillante */
     padding: 20px;
     text-align: center;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff; /* Texto blanco */
+    margin-bottom: 10px;
 }
 
 header img {
-    max-width: 150px;
-    border-radius: 50%;
+    width: 150px; /* Ancho de la imagen de perfil */
+    border-radius: 50%; /* Imagen circular */
+    border: 5px solid #fff; /* Borde blanco */
 }
 
-h1, h2, h3 {
-    margin: 10px 0;
+header p {
+    margin: 15px 0;
+}
+
+blockquote {
+    font-style: italic;
+    color: #ffb3d9; /* Color rosa suave */
+    margin: 20px 0;
+    border-left: 4px solid #ff69b4; /* Borde a la izquierda */
+    padding-left: 10px;
 }
 
 section {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 15px; /* Bordes redondeados */
     padding: 20px;
-    margin: 10px;
-    background: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-.galeria {
-    display: flex;
-    justify-content: space-around;
+h2 {
+    color: #ff69b4; /* Títulos en rosa brillante */
+    margin-bottom: 10px;
 }
 
-.galeria img {
-    max-width: 100px;
-    border: 2px solid #35424a;
-    border-radius: 5px;
+h3 {
+    color: #ff1493; /* Color de subtítulos */
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none; /* Quitar estilo de lista */
+    margin: 10px 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+img {
+    border-radius: 15px; /* Bordes redondeados para imágenes */
+    margin-top: 10px;
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 15px;
 }
 
-table, th, td {
-    border: 1px solid #35424a;
+th, td {
+    border: 1px solid #ff69b4; /* Bordes en rosa */
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
-    background: #35424a;
-    color: #ffffff;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+    background-color: #ffb3d9; /* Fondo rosa suave */
+    color: #fff; /* Texto blanco */
 }
 
 footer {
+    background-color: #ff69b4; /* Rosa brillante */
+    color: #fff; /* Texto blanco */
     text-align: center;
     padding: 10px;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin: 5px 0;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 15px; /* Bordes redondeados */
 }
 
 button {
-    padding: 10px;
-    background: #35424a;
-    color: #ffffff;
+    background-color: #ff69b4; /* Rosa brillante */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px; /* Bordes redondeados */
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
 }
 
 button:hover {
-    background: #45a049;
+    background-color: #ff1493; /* Cambio de fondo al pasar el ratón */
+    color: #fff; /* Texto blanco */
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ff69b4; /* Bordes en rosa */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Espacio a la derecha */
 }
