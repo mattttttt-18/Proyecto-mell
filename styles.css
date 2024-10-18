@@ -139,3 +139,18 @@ input[type="checkbox"] {
     text-decoration: none; /* Quitar subrayado */
 }
 
+.media {
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    margin-bottom: 20px; /* Espaciado entre elementos */
+}
+
+.media-image {
+    width: 150px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+}
+
+.media-text {
+    max-width: 600px; /* Limita el ancho del texto para mejorar la legibilidad */
+}
+
