@@ -130,3 +130,12 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
 input[type="checkbox"] {
     margin-right: 10px; /* Espacio a la derecha */
 }
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none; /* Quitar subrayado */
+}
+
