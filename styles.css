@@ -27,10 +27,6 @@ header h1 {
     margin-bottom: 10px;
 }
 
-header img {
-    border: 5px solid #fff; /* Borde blanco */
-}
-
 header p {
     margin: 15px 0;
 }
