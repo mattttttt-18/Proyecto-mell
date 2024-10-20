@@ -28,8 +28,6 @@ header h1 {
 }
 
 header img {
-    width: 150px; /* Ancho de la imagen de perfil */
-    border-radius: 50%; /* Imagen circular */
     border: 5px solid #fff; /* Borde blanco */
 }
 
